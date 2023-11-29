@@ -1,0 +1,6 @@
+---
+- name: Initialize Domain Controller
+  hosts: zd-dc-01
+  roles:
+    - rdp
+    - domain_controller
